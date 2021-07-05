@@ -1,0 +1,57 @@
+body{
+}
+
+.nav{
+width:100%;
+background:navy;
+height:50px;
+position:absolute;
+
+}
+ul{
+list-style:none;
+padding:0;
+margin:0;
+
+
+}
+ul li{
+float:left;
+margin-top:5px;
+}
+ul li a{
+width:150px;
+color:white;
+display:block;
+text-decoration:none;
+font-size:18px;
+text-align:center;
+padding:9px;
+border-radius:8px;
+font-family:Arial;
+
+
+}
+.nav a:hover{
+background:red;
+}
+ul li ul{
+    background:navy;
+}
+ul li ul li{
+float:none;
+
+}
+
+ul li ul{
+display:none;
+}
+ul li:hover ul{
+    display:block;
+}
+h1{
+font-family:calibri;
+font-weight:none;
+}
+
+
